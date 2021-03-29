@@ -18,7 +18,7 @@ drpDesserts.onclick=function(){
     if (typeof(s) == "object")   
       return                    
       else {  drpDesserts.value = s
-        lblPrompt.value = (`You picked ${drpDesserts.selection} - That is a great choice!`)
+        lblPrompt.value = (`You picked ${drpDesserts.selection} - Great choice!`)
     }
         
         btnDescribeYou.onclick = function() {
